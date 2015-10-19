@@ -13,6 +13,62 @@
       <img id="logo" src="public/images/stamplay_logo.png"/>
     </div>
   </nav>
+<!--OPTIONS-->
+  <ul id="options" class="collection container z-depth-1">
+      <li class="collection-item center queryheader"><b>Query Options</b>
+      <li class="collection-item data">
+      <b class="header">Cuisine: </b>
+      <span class="queryheader">American, Chinese, Italian, Mexican</span>
+      </li>
+      <li class="collection-item data">
+      <b class="header">Cities: </b> 
+      <span class="queryheader">San Fransisco, Los Angeles, New York, Chicago</span>
+      </li>
+  </ul>
+  <br>
+  <br>
+<!--QUERY SECTION-->
+   <div id="createSection" class="row container z-depth-1">
+   <br>
+   <p class="center"><b class='queryheader'>Find a resturaunt!</b></p>
+    <form class="col s12">
+      <div class="row">
+        <div 
+        id="input"
+        onclick="reset()" 
+        class="input-field col s12">
+          <br>
+          <input  
+          placeholder="Cuisine..." 
+          id="objectName" 
+          type="text">
+        </div>
+      </div>
+      <div class="row">
+        <div 
+        id="input"
+        onclick="reset()" 
+        class="input-field col s12">
+          <br>
+          <input  
+          placeholder="City..." 
+          id="objectName" 
+          type="text">
+        </div>
+      </div>
+      </div>
+      <div class="row center">
+        <div class="input-field col s12">
+          <a 
+          onclick="createObject()" 
+          id="btn" 
+          class="waves-effect waves-light btn-large">
+          <i class="fa fa-search right"></i></i>Query Object</a>
+        </div>
+      </div>
+    </form>
+  </div>
+  <br>
 
 
 
