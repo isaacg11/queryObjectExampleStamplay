@@ -1,0 +1,10 @@
+{
+  "appId": "querycustomobjecttutorial",
+  "apiKey": "475c2cd25d28af564cba95738f85cf1656eece5e222fa53178e2f794a69ab54c",
+  "public": "./",
+  "ignore": [
+    "stamplay.json",
+    "**/.*",
+    "**/node_modules/**"
+  ]
+}

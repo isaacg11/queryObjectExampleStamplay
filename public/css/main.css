@@ -1,0 +1,17 @@
+body, html {
+	font-family: "Roboto";
+	min-height: 100vh;
+	min-width: 100vw;
+	position: cover;
+	background-color: #EEEEEE;
+}
+
+#navbar{
+	background-color: #272D4E;
+}
+#logo{
+	height: 50px;
+	width: 50px;
+	margin-top: 5px;
+
+}
