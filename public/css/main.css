@@ -8,12 +8,22 @@ body, html {
 
 #navbar{
 	background-color: #272D4E;
+	height: 80px;
 }
 #logo{
-	height: 50px;
-	width: 50px;
+  	padding: 10px;
+    height: 70px;
 	margin-top: 5px;
-
+}
+.github{
+	background-color: #FBC02D;
+	color: #000;
+	margin-top: 10px;
+	margin-right: 10px;
+}
+.github:hover{
+	background-color: #FBC02D;
+	color: #000;
 }
 #options{
 	margin-top: 30px;
@@ -48,5 +58,10 @@ body, html {
 }
 #queryResults{
 	width: 40%;
-	margin-top: 20px;
+	margin-top: 40px;
 }
+.ptag{
+	padding-top: 10px;
+}
+
+
